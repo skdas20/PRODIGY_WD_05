@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="welcome-message">Welcome to Weatherly</div>
+    <div id="main-container">
+        <div id="weather-container">
+            <h2>Weatherly</h2>
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getWeather()">Search</button>
+
+            <img id="weather-icon" alt="Weather Icon">
+
+            <div id="temp-div"></div>
+
+            <div id="weather-info"></div>
+
+            <div id="hourly-forecast"></div>
+        </div>
+        <div id="quote-container">
+            <p class="quote">"No matter what the weather is, carry your own sunshine!"</p>
+            <div id="image-container">
+                <img src="./assets/pg.png" alt="Circular Image">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>© skdas20, all rights reserved.</p>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
